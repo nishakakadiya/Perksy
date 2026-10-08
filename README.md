@@ -30,5 +30,5 @@ A small mock loyalty app built for the Signature Hospitality Group technical tas
 
 ## Notes for reviewers
 
-- Deep links use the Expo Router path `/offers/<offerId>` (for example, `exp://192.168.0.6:8081/--/offers/offer-lunch`).
+- Deep links use the Expo Router path `/offers/<offerId>` (for example, `exp://<your-dev-server-host>:8081/--/offers/offer-coffee`).
 - `npm run test:coverage` generates an HTML report in `coverage/lcov-report/index.html`; coverage output is git-ignored.

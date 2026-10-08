@@ -184,7 +184,6 @@ export function getOfferStatus(
 ): OfferStatus {
   if (offer.redeemedAt) {
     return "redeemed";
-    ``;
   }
 
   const useByTime = Date.parse(offer.useBy);
